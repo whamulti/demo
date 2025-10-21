@@ -1,0 +1,46 @@
+# Ignorar dependências
+node_modules/
+
+# Ignorar arquivos de build
+/dist/
+
+# Ignorar logs
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+*.log
+
+# Ignorar arquivos de ambiente
+.env
+.env.*
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de cache
+.cache/
+
+# Ignorar arquivos de testes
+coverage/
+
+# Ignorar arquivos temporários
+*.tmp
+*.swp
+
+# Ignorar arquivos de certificados
+certs/
+
+# Ignorar arquivos de configuração do editor
+.vscode/
+.idea/
+
+# Ignorar arquivos de uploads
+public/app/nopicture.png
+
+# Ignorar arquivos de migração do sequelize
+backend/database/migrations/*.js
+backend/database/seeders/*.js
+
+# Ignorar arquivos de build do frontend
+frontend/build/
